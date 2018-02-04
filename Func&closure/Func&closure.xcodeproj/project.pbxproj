@@ -12,6 +12,14 @@
 		AC917C701F7680DB00757B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC917C6E1F7680DB00757B8D /* Main.storyboard */; };
 		AC917C721F7680DB00757B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC917C711F7680DB00757B8D /* Assets.xcassets */; };
 		AC917C751F7680DB00757B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC917C731F7680DB00757B8D /* LaunchScreen.storyboard */; };
+		ACCA8ECD20257C580056FA26 /* EpisodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8ECC20257C580056FA26 /* EpisodeTest.swift */; };
+		ACCA8ED1202596540056FA26 /* FinishAlertView_delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8ED0202596540056FA26 /* FinishAlertView_delegate.swift */; };
+		ACCA8ED3202598860056FA26 /* EpisodeController_delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8ED2202598860056FA26 /* EpisodeController_delegate.swift */; };
+		ACCA8ED52025AAB30056FA26 /* FinishAlertView_callback_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8ED42025AAB30056FA26 /* FinishAlertView_callback_struct.swift */; };
+		ACCA8ED92025B0FA0056FA26 /* FinishAlertView_callback_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8ED82025B0FA0056FA26 /* FinishAlertView_callback_class.swift */; };
+		ACCA8EDB2025B71A0056FA26 /* FunctionParameter_inout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8EDA2025B71A0056FA26 /* FunctionParameter_inout.swift */; };
+		ACCA8EDD2025D3110056FA26 /* ForAutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8EDC2025D3110056FA26 /* ForAutoClosure.swift */; };
+		ACCA8EDF2025DE970056FA26 /* ClosureCaptureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA8EDE2025DE970056FA26 /* ClosureCaptureList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		AC917C711F7680DB00757B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC917C741F7680DB00757B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC917C761F7680DB00757B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCA8ECC20257C580056FA26 /* EpisodeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTest.swift; sourceTree = "<group>"; };
+		ACCA8ED0202596540056FA26 /* FinishAlertView_delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAlertView_delegate.swift; sourceTree = "<group>"; };
+		ACCA8ED2202598860056FA26 /* EpisodeController_delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeController_delegate.swift; sourceTree = "<group>"; };
+		ACCA8ED42025AAB30056FA26 /* FinishAlertView_callback_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAlertView_callback_struct.swift; sourceTree = "<group>"; };
+		ACCA8ED82025B0FA0056FA26 /* FinishAlertView_callback_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAlertView_callback_class.swift; sourceTree = "<group>"; };
+		ACCA8EDA2025B71A0056FA26 /* FunctionParameter_inout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionParameter_inout.swift; sourceTree = "<group>"; };
+		ACCA8EDC2025D3110056FA26 /* ForAutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForAutoClosure.swift; sourceTree = "<group>"; };
+		ACCA8EDE2025DE970056FA26 /* ClosureCaptureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureCaptureList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 			children = (
 				AC917C6A1F7680DB00757B8D /* AppDelegate.swift */,
 				AC917C6C1F7680DB00757B8D /* ViewController.swift */,
+				ACCA8EDC2025D3110056FA26 /* ForAutoClosure.swift */,
+				ACCA8EDE2025DE970056FA26 /* ClosureCaptureList.swift */,
+				ACCA8EDA2025B71A0056FA26 /* FunctionParameter_inout.swift */,
+				ACCA8ED82025B0FA0056FA26 /* FinishAlertView_callback_class.swift */,
+				ACCA8ED42025AAB30056FA26 /* FinishAlertView_callback_struct.swift */,
+				ACCA8ED0202596540056FA26 /* FinishAlertView_delegate.swift */,
+				ACCA8ED2202598860056FA26 /* EpisodeController_delegate.swift */,
+				ACCA8ECC20257C580056FA26 /* EpisodeTest.swift */,
 				AC917C6E1F7680DB00757B8D /* Main.storyboard */,
 				AC917C711F7680DB00757B8D /* Assets.xcassets */,
 				AC917C731F7680DB00757B8D /* LaunchScreen.storyboard */,
@@ -136,8 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCA8ED1202596540056FA26 /* FinishAlertView_delegate.swift in Sources */,
 				AC917C6D1F7680DB00757B8D /* ViewController.swift in Sources */,
+				ACCA8ECD20257C580056FA26 /* EpisodeTest.swift in Sources */,
 				AC917C6B1F7680DB00757B8D /* AppDelegate.swift in Sources */,
+				ACCA8EDF2025DE970056FA26 /* ClosureCaptureList.swift in Sources */,
+				ACCA8ED92025B0FA0056FA26 /* FinishAlertView_callback_class.swift in Sources */,
+				ACCA8EDB2025B71A0056FA26 /* FunctionParameter_inout.swift in Sources */,
+				ACCA8ED3202598860056FA26 /* EpisodeController_delegate.swift in Sources */,
+				ACCA8EDD2025D3110056FA26 /* ForAutoClosure.swift in Sources */,
+				ACCA8ED52025AAB30056FA26 /* FinishAlertView_callback_struct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 				AC917C7B1F7680DB00757B8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

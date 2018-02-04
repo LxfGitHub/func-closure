@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FinishAlertView_callback: NSObject {
+class FinishAlertView_callback_struct: NSObject {
     
     var buttons: [String] = ["Cancel", "The next"]
     var buttonPressed:((Int) -> Void)?
@@ -19,10 +19,10 @@ class FinishAlertView_callback: NSObject {
     
 }
 
-struct PressCounter_callback {
+struct PressCounter_callback_struct {
     
     var count: Int = 0
-    
+
     mutating func buttonPresseds(at Index: Int) { // 方法的结构要和回调的((Int) -> Void)?一致
         count += 1
     }

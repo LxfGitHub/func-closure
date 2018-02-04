@@ -8,14 +8,14 @@
 
 import UIKit
 
-class EpisodeController: FinishAlertViewDelegate {
+class EpisodeController_delegate: FinishAlertViewDelegate {
     
-    var episodeAlert: FinishAlertView!
-    var counter: PressCounter!
+    var episodeAlert: FinishAlertView_delegate!
+    var counter: PressCounter_delegate!
     
     init() {
-        self.episodeAlert = FinishAlertView()
-        self.counter = PressCounter()
+        self.episodeAlert = FinishAlertView_delegate()
+        self.counter = PressCounter_delegate()
         self.episodeAlert.delegate = self.counter
     }
     

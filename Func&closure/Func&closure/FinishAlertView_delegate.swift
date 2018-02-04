@@ -12,7 +12,7 @@ protocol FinishAlertViewDelegate {
     mutating func buttonPressed(at Index: Int)
 }
 
-class FinishAlertView {
+class FinishAlertView_delegate {
     
     var buttons: [String] = ["Cancel", "The next"]
     var delegate: FinishAlertViewDelegate?
@@ -23,7 +23,7 @@ class FinishAlertView {
 
 }
 
-struct PressCounter: FinishAlertViewDelegate {
+struct PressCounter_delegate: FinishAlertViewDelegate {
     
     var count: Int = 0
     
